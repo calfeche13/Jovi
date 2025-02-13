@@ -94,6 +94,9 @@ const FallingPetals = () => {
                 Happy Valentines day! I hope lipay raka karon, and I hope maka rani natong duha kung unsa may kinalabasan ani.
             </p>
             <p className="p-4 text-center z-10 bg-[#141414] rounded-xl xl:w-[70vw] w-[90vw]">
+                Remember that I will always love you. I love you!
+            </p>
+            <p className="p-4 text-center z-10 bg-[#141414] rounded-xl xl:w-[70vw] w-[90vw]">
                 From me to you...
             </p>
 
