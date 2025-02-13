@@ -16,6 +16,6 @@ export default () => {
             </div>
         );
     } else {
-        return <Error />;
+        return <Error message={`She doesn't have a pet named ${pet}`} />;
     }
 }

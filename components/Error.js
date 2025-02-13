@@ -19,8 +19,8 @@ export default function Error({message = "Error!"}) {
 
     return (
         <div className={`${geistSans.variable} ${geistMono.variable} h-[calc(100vh)] flex flex-col items-center justify-center gap-y-8`}>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">{message}</h1>
-            <a className="text-blue-600" onClick={goBack}>Go Back</a>
+            <h1 className="px-16 text-center text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">{message}</h1>
+            <a className="text-blue-600 cursor-pointer" onClick={goBack}>Go Back</a>
         </div>
     );
 }

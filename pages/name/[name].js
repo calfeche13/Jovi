@@ -16,6 +16,6 @@ export default () => {
             </div>
         );
     } else {
-        return <Error />;
+        return <Error message={`Sorry ${name}...`}/>;
     }
 }

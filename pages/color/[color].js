@@ -27,10 +27,10 @@ export default () => {
         return (
             <div className={`${geistSans.variable} ${geistMono.variable} h-[calc(100vh)] flex flex-col items-center justify-center gap-y-8`}>
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">You are the one!</h1>
-                <a className="text-blue-600" onClick={proceed}>Proceed</a>
+                <a className="text-blue-600 cursor-pointer" onClick={proceed}>Proceed</a>
             </div>
         );
     } else {
-        return <Error />;
+        return <Error message={`ouugh, must be someone else, ${color} is not her favorite color.`} />;
     }
 }

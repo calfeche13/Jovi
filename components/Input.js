@@ -30,7 +30,7 @@ export default function Input({title, inputType = "text", buttonText = "Submit",
 
     return (
         <div class="flex flex-col justify-center items-center gap-16">
-            <h1 className={`${geistSans.variable} ${geistMono.variable} text-3xl md:text-4xl lg:text-5xl font-bold leading-tight`}>{title}</h1>
+            <h1 className={`${geistSans.variable} ${geistMono.variable} animate-slide-up text-3xl md:text-4xl lg:text-5xl font-bold leading-tight`}>{title}</h1>
 
             <div className="relative text-black">
                 <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
