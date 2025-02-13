@@ -7,7 +7,8 @@ export default () => {
     const router = useRouter();
     const { name } = router.query;
 
-    const isSuccess = (name || "").toLowerCase() === "jovi";
+    const cleanName = (name || "").toLowerCase().trim();
+    const isSuccess = cleanName === "jovi" || cleanName === "jovi cataluna" || cleanName === "jovi cataluña";
 
     if (isSuccess) {
         return (
