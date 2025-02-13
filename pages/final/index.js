@@ -102,7 +102,7 @@ const FallingPetals = () => {
 
             <AudioPlayer />
 
-            <div className="h-screen w-full overflow-hidden sticky mt-[calc(-10vh)] absolute inset-0 z-[-1]">
+            <div className="h-screen w-full overflow-hidden sticky mt-[calc(-10vh)] top-0 absolute inset-0 z-[-1]">
             {petals.map((petal) => (
                 <div
                 key={petal.id}
